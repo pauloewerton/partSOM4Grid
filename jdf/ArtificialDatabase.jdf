@@ -1,0 +1,23 @@
+job:
+label: ArtificialDatabase
+init: store partSOM.jar partSOM.jar
+
+task:
+remote: java -cp .:$STORAGE/partSOM.jar partsom.util.ArtificialDatabase 100000 17 1000 10000 Database1.txt
+final: get Database1.txt Database1.txt
+
+task:
+remote: java -cp .:$STORAGE/partSOM.jar partsom.util.ArtificialDatabase 100000 17 1000 15000 Database2.txt
+final: get Database2.txt Database2.txt
+
+task:
+remote: java -cp .:$STORAGE/partSOM.jar partsom.util.ArtificialDatabase 100000 17 1000 20000 Database3.txt
+final: get Database3.txt Database3.txt
+
+task:
+remote: java -cp .:$STORAGE/partSOM.jar partsom.util.ArtificialDatabase 100000 17 1000 25000 Database4.txt
+final: get Database4.txt Database4.txt
+
+task:
+remote: java -cp .:$STORAGE/partSOM.jar partsom.util.ArtificialDatabase 100000 17 1000 30000 Database5.txt
+final: get Database5.txt Database5.txt

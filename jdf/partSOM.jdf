@@ -1,0 +1,33 @@
+job:
+label: partSOM
+init: put partSOM.jar partSOM.jar
+
+task:
+init: put Database1.txt Database1.txt
+remote: java -cp . partsom.LocalPartSomTest Database1.txt 3
+final: get CodebookDatabase1.txt CodebookDatabase1.txt
+       get IndexVectorDatabase1.txt IndexVectorDatabase1.txt
+       
+task:
+init: put Database2.txt Database2.txt
+remote: java -cp . partsom.LocalPartSomTest Database2.txt 3
+final: get CodebookDatabase2.txt CodebookDatabase2.txt
+       get IndexVectorDatabase2.txt IndexVectorDatabase2.txt
+       
+task:
+init: put Database3.txt Database3.txt
+remote: java -cp . partsom.LocalPartSomTest Database3.txt 3
+final: get CodebookDatabase3.txt CodebookDatabase3.txt
+       get IndexVectorDatabase3.txt IndexVectorDatabase3.txt
+       
+task:
+init: put Database4.txt Database4.txt
+remote: java -cp . partsom.LocalPartSomTest Database4.txt 3
+final: get CodebookDatabase4.txt CodebookDatabase4.txt
+       get IndexVectorDatabase4.txt IndexVectorDatabase4.txt
+       
+task:
+init: put Database5.txt Database5.txt
+remote: java -cp . partsom.LocalPartSomTest Database5.txt 3
+final: get CodebookDatabase5.txt CodebookDatabase5.txt
+       get IndexVectorDatabase5.txt IndexVectorDatabase5.txt
