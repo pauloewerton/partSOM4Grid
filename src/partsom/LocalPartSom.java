@@ -1,8 +1,8 @@
 /*
- * 2010, http://partSOM4OurGrid.sourceforge.net
- * This file is part of partSOM4OurGrid 
+ * 2010, http://github.com/pauloewerton/partSOM4Grid
+ * This file is part of partSOM4Grid 
  *
- * partSOM4OurGrid is free software: you can redistribute it and/or modify it under the
+ * partSOM4Grid is free software: you can redistribute it and/or modify it under the
  * terms of the Artistic License 2.0 as published by the OSI.
  * 
  * This program is distributed in hope that it will be useful, but WITHOUT 
@@ -11,10 +11,10 @@
  * for more details. 
  * 
  * You should have received a copy of the Artistic License 2.0
- * along with this program. If not, see <http://www.osi.org/licenses/>.
+ * along with this program. See <www.opensource.org/licenses/artistic-license-2.0>.
  * 
  */
- 
+  
 package partsom;
 
 import partsom.util.Utilitarios;
