@@ -2,7 +2,7 @@
 
 *Use partSOM4Grid to discover hidden knowledge*
 
-Or, at least, you can do some data mining with a distributed version of K-Means running on a computer grid platform. [partSOM](http://www.intechopen.com/books/self-organizing-maps/partsom-a-framework-for-distributed-data-clustering-using-som-and-k-means) is a distributed data mining strategy aimed to decrease the amount of data transmitted among KDD workstations. [OurGrid](http://www.ourgrid.org) is a peer-to-peer (P2P) grid for running bag-of-task (BoT) applications.
+Or, at least, you can do some data mining with a distributed version of K-Means running on a computer grid platform. [partSOM](http://www.intechopen.com/books/self-organizing-maps/partsom-a-framework-for-distributed-data-clustering-using-som-and-k-means) is a distributed data mining strategy aimed to decrease the amount of data transmitted among KDD workstations. [OurGrid](https://github.com/OurGrid/) is a peer-to-peer (P2P) grid for running bag-of-task (BoT) applications.
 
 I've written a monograph (Portuguese) [explaning why and how](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZmZtLmNvbS5icnx0Y2N8Z3g6Nzg5ZjUxZmNiYWFjNmQ1NA) I've put those two tools to work together. I hope you can find the code somewhat useful. If you need help, feel free to leave an issue.
 
